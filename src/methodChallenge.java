@@ -27,6 +27,8 @@ public class methodChallenge {
         displayHighScorePosition("KLY", highScorePosition);
         highScorePosition = calculateHighScorePosition(50);
         displayHighScorePosition("XYZ", highScorePosition);
+        highScorePosition = calculateHighScorePosition(1000);
+        displayHighScorePosition("LOL",highScorePosition);
     }
 
 }
