@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class interestCalwithInput {
+public class compoundInterestCalWithInput {
 
 
     public double Interest(double starting_money, double final_money, float interest_rate ) {
@@ -31,7 +31,7 @@ public class interestCalwithInput {
             double final_money = input.nextDouble();
             System.out.println("Enter interest rate in decimal ");
             float interest_rate= input.nextFloat();
-            interestCalwithInput numYear = new interestCalwithInput();
+            compoundInterestCalWithInput numYear = new compoundInterestCalWithInput();
             System.out.println("Numbers of years required is " + numYear.Interest(starting_money,final_money, interest_rate ));
         }
     }
