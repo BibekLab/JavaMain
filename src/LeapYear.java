@@ -8,4 +8,8 @@ public class LeapYear {
         }
         return false;
     }
+
+    public static void main(String[] args) {
+        System.out.println(isLeapYear(9000));
+    }
 }
