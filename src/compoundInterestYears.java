@@ -4,7 +4,7 @@ public class compoundInterestYears {
     public int Interest() {
         int starting_amount =100;
         int final_amount =200;
-        double total=0;
+        double total;
         int years = 0;
         do {
             total = starting_amount + (starting_amount*0.10);
